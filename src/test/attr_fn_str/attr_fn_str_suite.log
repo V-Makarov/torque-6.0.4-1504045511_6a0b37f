@@ -1,0 +1,7 @@
+Running suite attr_fn_str_suite methods
+test_uut.c:22:P:test_one:test_one:0: Passed
+test_uut.c:38:P:test_two:test_two:0: Passed
+test_uut.c:89:P:test_three:test_three:0: Passed
+test_uut.c:181:P:test_CSV:test_csv:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

@@ -1,0 +1,5 @@
+Running suite req_holdjob_suite methods
+test_uut.c:21:P:test_release_job:test_release_job:0: Passed
+test_uut.c:25:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

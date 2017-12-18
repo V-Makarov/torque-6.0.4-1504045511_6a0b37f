@@ -1,0 +1,18 @@
+Running suite array_func_suite methods
+test_uut.c:196:P:set_slot_limit_test:set_slot_limit_test:0: Passed
+test_uut.c:209:P:is_num_test:is_num_test:0: Passed
+test_uut.c:223:P:array_request_token_count_test:array_request_token_count_test:0: Passed
+test_uut.c:258:P:array_request_parse_token_test:array_request_parse_token_test:0: Passed
+test_uut.c:298:P:num_array_jobs_test:num_array_jobs_test:0: Passed
+test_uut.c:67:P:num_array_jobs_test:need_to_update_slot_limits_test:0: Passed
+test_uut.c:285:P:first_job_index_test:first_job_index_test:0: Passed
+test_uut.c:163:P:first_job_index_test:parse_array_dom_test:0: Passed
+test_uut.c:303:P:array_delete_test:array_delete_test:0: Passed
+test_uut.c:111:P:array_delete_test:release_slot_hold_test:0: Passed
+test_uut.c:89:P:array_delete_test:set_slot_hold_test:0: Passed
+test_uut.c:349:P:array_recov_binary_test:array_recov_binary_test:0: Passed
+test_uut.c:158:P:array_recov_binary_test:update_array_values_test:0: Passed
+test_uut.c:139:P:array_recov_binary_test:update_slot_values_test:0: Passed
+test_uut.c:365:P:parse_array_request_test:parse_array_request_test:0: Passed
+Results for all suites run:
+100%: Checks: 15, Failures: 0, Errors: 0

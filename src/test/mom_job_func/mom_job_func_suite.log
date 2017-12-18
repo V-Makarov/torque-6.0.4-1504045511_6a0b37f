@@ -1,0 +1,6 @@
+Running suite mom_job_func_suite methods
+test_uut.c:102:P:test_am_i_mother_superior:test_am_i_mother_superior:0: Passed
+test_uut.c:124:P:test_remove_from_exiting_list:test_remove_from_exiting_list:0: Passed
+test_uut.c:90:P:test_mom_finding_jobs:test_mom_finding_jobs:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

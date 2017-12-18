@@ -1,0 +1,5 @@
+Running suite mom_req_quejob_suite methods
+test_uut.c:24:P:test_mom_req_quejob:test_mom_req_quejob:0: Passed
+test_uut.c:28:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

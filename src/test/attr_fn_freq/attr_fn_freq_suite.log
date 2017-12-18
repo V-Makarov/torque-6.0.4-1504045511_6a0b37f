@@ -1,0 +1,6 @@
+Running suite attr_fn_freq_suite methods
+test_uut.c:27:P:test_one:test_one:0: Passed
+test_uut.c:44:P:test_two:test_two:0: Passed
+test_uut.c:70:P:test_three:test_three:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

@@ -1,0 +1,7 @@
+Running suite pbs_track_suite methods
+test_uut.c:121:P:parse_commandline_opts:parse_commandline_opts:0: Passed
+test_uut.c:164:P:handle_adopt_results:handle_adoption_results:0: Passed
+test_uut.c:188:P:adopt_process:adopt_process:0: Passed
+test_uut.c:223:P:fork_process:fork_process:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

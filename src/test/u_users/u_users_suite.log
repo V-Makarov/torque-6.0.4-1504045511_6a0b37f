@@ -1,0 +1,8 @@
+Running suite u_users_suite methods
+test_uut.c:29:P:null_check:null_check:0: Passed
+test_uut.c:39:P:invalid_user:invalid_user:0: Passed
+test_uut.c:51:P:valid_user:valid_user:0: Passed
+test_uut.c:63:P:invalid_user_with_error:invalid_user_with_error:0: Passed
+test_uut.c:19:P:invalid_user_with_error:get_password_entry_by_uid_test:0: Passed
+Results for all suites run:
+100%: Checks: 5, Failures: 0, Errors: 0

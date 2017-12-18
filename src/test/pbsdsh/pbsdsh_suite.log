@@ -1,0 +1,8 @@
+Running suite pbsdsh_suite methods
+test_uut.c:37:P:test_gethostnames_from_nodefile:test_gethostnames_from_nodefile:0: Passed
+test_uut.c:52:P:test_fork_listener_handler:test_fork_listener_handler:0: Passed
+test_uut.c:82:P:test_fork_read_handler:test_fork_read_handler:0: Passed
+test_uut.c:200:P:test_getvars_from_string:test_getvars_from_string:0: Passed
+test_uut.c:254:P:test_getallvars_from_env:test_getallvars_from_env:0: Passed
+Results for all suites run:
+100%: Checks: 5, Failures: 0, Errors: 0

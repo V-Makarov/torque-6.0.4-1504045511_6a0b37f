@@ -1,0 +1,25 @@
+Running suite svr_jobfunc_suite methods
+test_uut.c:260:P:svr_enquejob_test:svr_enquejob_test:0: Passed
+test_uut.c:286:P:svr_dequejob_test:svr_dequejob_test:0: Passed
+test_uut.c:336:P:svr_setjobstate_test:svr_setjobstate_test:0: Passed
+test_uut.c:400:P:svr_evaljobstate_test:svr_evaljobstate_test:0: Passed
+test_uut.c:419:P:get_variable_test:get_variable_test:0: Passed
+test_uut.c:453:P:chk_resc_limits_test:chk_resc_limits_test:0: Passed
+test_uut.c:486:P:chk_resc_min_limits_test:chk_resc_min_limits_test:0: Passed
+test_uut.c:574:P:svr_chkque_test:svr_chkque_test:0: Passed
+test_uut.c:603:P:job_set_wait_test:job_set_wait_test:0: Passed
+test_uut.c:621:P:prefix_std_file_test:prefix_std_file_test:0: Passed
+test_uut.c:644:P:add_std_filename_test:add_std_filename_test:0: Passed
+test_uut.c:660:P:get_jobowner_test:get_jobowner_test:0: Passed
+test_uut.c:665:P:set_resc_deflt_test:set_resc_deflt_test:0: Passed
+test_uut.c:102:P:set_resc_deflt_test:test_numa_task_exceeds_resources:0: Passed
+test_uut.c:689:P:set_chkpt_deflt_test:set_chkpt_deflt_test:0: Passed
+test_uut.c:97:P:set_chkpt_deflt_test:contains_execution_slot_request_test:0: Passed
+test_uut.c:703:P:set_statechar_test:set_statechar_test:0: Passed
+test_uut.c:212:P:set_statechar_test:is_valid_state_transition_test:0: Passed
+test_uut.c:191:P:set_statechar_test:has_conflicting_resource_requeusts_test:0: Passed
+test_uut.c:729:P:lock_ji_mutex_test:lock_ji_mutex_test:0: Passed
+test_uut.c:234:P:lock_ji_mutex_test:chk_mppnodect_test:0: Passed
+test_uut.c:230:P:lock_ji_mutex_test:job_wait_over_test:0: Passed
+Results for all suites run:
+100%: Checks: 22, Failures: 0, Errors: 0

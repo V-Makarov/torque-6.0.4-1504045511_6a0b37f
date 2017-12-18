@@ -1,0 +1,6 @@
+Running suite tm_suite methods
+test_uut.c:41:P:tm:test_tm_poll_bad_init:0: Passed
+test_uut.c:49:P:tm:test_tm_poll_bad_result:0: Passed
+test_uut.c:60:P:tm:test_tm_adopt_ispidowner:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

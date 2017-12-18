@@ -1,0 +1,22 @@
+Running suite mom_comm_suite methods
+test_uut.c:258:P:test_read_status_strings_null_chan_doesnt_crash:test_read_status_strings_null_chan_doesnt_crash:0: Passed
+test_uut.c:263:P:test_read_status_strings_loop:test_read_status_strings_loop:0: Passed
+test_uut.c:166:P:test_read_status_strings_loop:test_process_end_job_error_reply:0: Passed
+test_uut.c:213:P:handle_im_obit_task_response_test:handle_im_obit_task_response_test:0: Passed
+test_uut.c:278:P:test_get_received_node_entry:test_get_received_node_entry:0: Passed
+test_uut.c:307:P:task_save_test:task_save_test:0: Passed
+test_uut.c:311:P:im_request_test:im_request_test:0: Passed
+test_uut.c:251:P:im_request_test:create_contact_list_test:0: Passed
+test_uut.c:490:P:im_join_job_as_sister_test:im_join_job_as_sister_test:0: Passed
+test_uut.c:186:P:im_join_job_as_sister_test:handle_im_poll_job_response_test:0: Passed
+test_uut.c:522:P:tm_spawn_request_test:tm_spawn_request_test:0: Passed
+test_uut.c:143:P:tm_spawn_request_test:is_nodeid_on_this_host_test:0: Passed
+test_uut.c:537:P:pbs_task_create_test:pbs_task_create_test:0: Passed
+test_uut.c:124:P:pbs_task_create_test:test_find_task_by_pid:0: Passed
+test_uut.c:575:P:send_update_soon_test:send_update_soon_test:0: Passed
+test_uut.c:97:P:send_update_soon_test:test_get_reply_stream:0: Passed
+test_uut.c:591:P:get_stat_update_interval_test:get_stat_update_interval_test:0: Passed
+test_uut.c:598:P:test_readit:test_readit:0: Passed
+test_uut.c:85:P:test_readit:test_is_mother_superior:0: Passed
+Results for all suites run:
+100%: Checks: 19, Failures: 0, Errors: 0

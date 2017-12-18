@@ -1,0 +1,14 @@
+Running suite complete_req test suite methods
+test_uut.c:171:P:test_constructor:test_constructor:0: Passed
+test_uut.c:187:P:test_constructor_oldstyle_req:test_constructor_oldstyle_req:0: Passed
+test_uut.c:249:P:test_get_swap_memory_for_this_host:test_get_swap_memory_for_this_host:0: Passed
+test_uut.c:323:P:test_get_swap_memory_for_this_host:test_set_hostlists:0: Passed
+test_uut.c:268:P:test_get_num_reqs:test_get_num_reqs:0: Passed
+test_uut.c:346:P:test_get_memory_for_this_host:test_get_memory_for_this_host:0: Passed
+test_uut.c:25:P:test_get_memory_for_this_host:test_set_value_from_nodes:0: Passed
+test_uut.c:227:P:test_to_string:test_to_string:0: Passed
+test_uut.c:58:P:test_to_string:test_set_get_value:0: Passed
+test_uut.c:296:P:test_to_string:test_update_hostlist:0: Passed
+test_uut.c:376:P:test_to_string:test_get_req_index_for_host:0: Passed
+Results for all suites run:
+100%: Checks: 11, Failures: 0, Errors: 0

@@ -1,0 +1,5 @@
+Running suite req_modify_suite methods
+test_uut.c:41:P:test_req_modifyjob:test_req_modifyjob:0: Passed
+test_uut.c:54:P:test_allowed_gres_modifier:test_allowed_gres_modifier:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

@@ -1,0 +1,6 @@
+Running suite process_request_suite methods
+test_uut.c:97:P:test_process_request:test_process_request:0: Passed
+test_uut.c:151:P:test_process_request_bad_host_err:test_process_request_bad_host_err:0: Passed
+test_uut.c:85:P:test_process_request_bad_host_err:test_read_request_from_socket:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

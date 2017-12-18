@@ -1,0 +1,9 @@
+Running suite user_info test suite methods
+test_uut.c:50:P:get_num_queued_test:get_num_queued_test:0: Passed
+test_uut.c:72:P:count_jobs_submitted_test:count_jobs_submitted_test:0: Passed
+test_uut.c:107:P:can_queue_new_job_test:can_queue_new_job_test:0: Passed
+test_uut.c:161:P:increment_queued_jobs_test:increment_queued_jobs_test:0: Passed
+test_uut.c:197:P:decrement_queued_jobs_test:decrement_queued_jobs_test:0: Passed
+test_uut.c:25:P:decrement_queued_jobs_test:remove_server_suffix_test:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

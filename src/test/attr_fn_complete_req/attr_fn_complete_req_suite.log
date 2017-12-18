@@ -1,0 +1,6 @@
+Running suite attr_fn_complete_req test suite methods
+test_uut.c:22:P:test_free_complete_req:test_free_complete_req:0: Passed
+test_uut.c:111:P:test_free_complete_req:test_set_complete_req:0: Passed
+test_uut.c:74:P:test_decode_encode_complete_req:test_decode_encode_complete_req:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

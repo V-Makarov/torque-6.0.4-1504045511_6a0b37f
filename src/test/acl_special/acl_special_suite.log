@@ -1,0 +1,5 @@
+Running suite acl_special test suite methods
+test_uut.c:28:P:test_parse_qmgr_input:test_parse_qmgr_input:0: Passed
+test_uut.c:43:P:test_basics:test_basics:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

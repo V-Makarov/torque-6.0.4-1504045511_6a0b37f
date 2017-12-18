@@ -1,0 +1,5 @@
+Running suite req_signal_suite methods
+test_uut.c:31:P:test_req_signaljob_relaying_msg:test_req_signaljob_relaying_msg:0: Passed
+test_uut.c:96:P:test_issue_signal:test_issue_signal:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

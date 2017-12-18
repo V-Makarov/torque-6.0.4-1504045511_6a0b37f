@@ -1,0 +1,5 @@
+Running suite PBSD_rdrpy_suite methods
+test_uut.c:48:P:test_PBSD_rdrpy:test_PBSD_rdrpy:0: Passed
+test_uut.c:81:P:set_pbs_errno_from_dis_errcode_test:set_pbs_errno_from_dis_errcode_test:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

@@ -1,0 +1,6 @@
+Running suite mom_hierarchy_handler_suite methods
+test_uut.c:80:P:mom_hierarchy_handler_test:load_hierarchy_test:0: Passed
+test_uut.c:54:P:test_next_node:test_next_node:0: Passed
+test_uut.c:75:P:test_checkAndSendHierarchy:test_checkAndSendHierarchy:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

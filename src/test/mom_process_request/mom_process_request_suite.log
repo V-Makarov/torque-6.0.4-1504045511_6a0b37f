@@ -1,0 +1,5 @@
+Running suite mom_process_request_suite methods
+test_uut.c:18:P:test_mom_process_request:test_mom_process_request:0: Passed
+test_uut.c:28:P:test_mom_process_request_bad_host_err:test_mom_process_request_bad_host_err:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

@@ -1,0 +1,4 @@
+Running suite job_usage_info test suite methods
+test_uut.c:17:P:test_constructor:test_constructor:0: Passed
+Results for all suites run:
+100%: Checks: 1, Failures: 0, Errors: 0

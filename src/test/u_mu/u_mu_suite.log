@@ -1,0 +1,6 @@
+Running suite u_mu_suite methods
+test_uut.c:35:P:threadsafe_tokenizer_test:threadsafe_tokenizer_test:0: Passed
+test_uut.c:58:P:safe_strncat_test:safe_strncat_test:0: Passed
+test_uut.c:96:P:trim_whitespace_test:trim_whitespace_test:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

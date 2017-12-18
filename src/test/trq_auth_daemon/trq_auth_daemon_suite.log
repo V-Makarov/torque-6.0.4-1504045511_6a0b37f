@@ -1,0 +1,7 @@
+Running suite trq_auth_daemon_suite methods
+test_uut.c:42:P:test_parse_command_line1:test_parse_command_line1:0: Passed
+test_uut.c:54:P:test_parse_command_line2:test_parse_command_line2:0: Passed
+test_uut.c:66:P:test_parse_command_line3:test_parse_command_line3:0: Passed
+test_uut.c:71:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

@@ -1,0 +1,29 @@
+Running suite node_func_suite methods
+test_uut.c:405:P:addr_ok_test:addr_ok_test:0: Passed
+test_uut.c:426:P:addr_ok_test:login_encode_jobs_test:0: Passed
+test_uut.c:492:P:addr_ok_test:find_nodebyname_test:0: Passed
+test_uut.c:516:P:addr_ok_test:find_node_in_allnodes_test:0: Passed
+test_uut.c:816:P:node_mom_port_action_test:node_mom_port_action_test:0: Passed
+test_uut.c:842:P:node_mom_port_action_test:node_mom_rm_port_action_test:0: Passed
+test_uut.c:531:P:node_mom_port_action_test:add_execution_slot_test:0: Passed
+test_uut.c:868:P:node_gpus_action_test:node_gpus_action_test:0: Passed
+test_uut.c:894:P:node_gpus_action_test:node_numa_action_test:0: Passed
+test_uut.c:920:P:numa_str_action_test:numa_str_action_test:0: Passed
+test_uut.c:946:P:numa_str_action_test:gpu_str_action_test:0: Passed
+test_uut.c:963:P:create_partial_pbs_node_test:create_partial_pbs_node_test:0: Passed
+test_uut.c:991:P:create_partial_pbs_node_test:next_node_test:0: Passed
+test_uut.c:1018:P:insert_node_test:insert_node_test:0: Passed
+test_uut.c:1046:P:insert_node_test:remove_node_test:0: Passed
+test_uut.c:1069:P:next_host_test:next_host_test:0: Passed
+test_uut.c:389:P:next_host_test:add_to_property_list_test:0: Passed
+test_uut.c:375:P:write_compute_node_properties_test:write_compute_node_properties_test:0: Passed
+test_uut.c:244:P:write_compute_node_properties_test:add_node_attribute_to_list_test:0: Passed
+test_uut.c:110:P:add_node_property_test:add_node_property_test:0: Passed
+test_uut.c:128:P:add_node_property_test:record_node_property_list_test:0: Passed
+test_uut.c:330:P:add_node_property_test:node_exists_check:0: Passed
+test_uut.c:312:P:read_val_and_advance_test:read_val_and_advance_test:0: Passed
+test_uut.c:293:P:read_val_and_advance_test:parse_node_token_test:0: Passed
+test_uut.c:156:P:handle_cray_specific_node_values_test:handle_cray_specific_node_values_test:0: Passed
+test_uut.c:192:P:handle_cray_specific_node_values_test:parse_node_name_test:0: Passed
+Results for all suites run:
+100%: Checks: 26, Failures: 0, Errors: 0

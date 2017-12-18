@@ -1,0 +1,9 @@
+Running suite alps helper suite methods
+test_uut.c:76:P:host_req_tests:host_req_tests:0: Passed
+test_uut.c:175:P:parse_exec_hosts_test:parse_exec_hosts_test:0: Passed
+test_uut.c:277:P:get_reservation_command_test:get_reservation_command_test:0: Passed
+test_uut.c:63:P:get_reservation_command_test:adjust_for_depth_test:0: Passed
+test_uut.c:342:P:execute_reservation_test:execute_reservation_test:0: Passed
+test_uut.c:349:P:confirm_reservation_test:confirm_reservation_test:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

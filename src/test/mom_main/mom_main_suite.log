@@ -1,0 +1,13 @@
+Running suite mom_main_suite methods
+test_uut.c:138:P:test_read_mom_hierarchy:test_read_mom_hierarchy:0: Passed
+test_uut.c:128:P:test_read_mom_hierarchy:test_process_layout_request:0: Passed
+test_uut.c:198:P:test_mom_job_dir_sticky_config:test_mom_job_dir_sticky_config:0: Passed
+test_uut.c:193:P:test_mom_job_dir_sticky_config:test_parse_integer_range:0: Passed
+test_uut.c:312:P:calculate_poll_timeout_test:calculate_poll_timeout_test:0: Passed
+test_uut.c:169:P:test_call_scan_for_exiting:test_call_scan_for_exiting:0: Passed
+test_uut.c:109:P:test_call_scan_for_exiting:test_should_resend_obit:0: Passed
+test_uut.c:324:P:test_parse_command_line1:test_parse_command_line1:0: Passed
+test_uut.c:336:P:test_parse_command_line2:test_parse_command_line2:0: Passed
+test_uut.c:348:P:test_parse_command_line3:test_parse_command_line3:0: Passed
+Results for all suites run:
+100%: Checks: 10, Failures: 0, Errors: 0

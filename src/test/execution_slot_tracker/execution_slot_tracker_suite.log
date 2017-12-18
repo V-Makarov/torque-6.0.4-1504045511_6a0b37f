@@ -1,0 +1,9 @@
+Running suite execution_slot_tracker test suite methods
+test_uut.c:38:P:test_constructors:test_constructors:0: Passed
+test_uut.c:71:P:more_tests:test_available:0: Passed
+test_uut.c:94:P:more_tests:test_equals:0: Passed
+test_uut.c:146:P:more_tests:test_reserving:0: Passed
+test_uut.c:191:P:more_tests:test_occupied_iterator:0: Passed
+test_uut.c:22:P:more_tests:test_reserve_slot:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

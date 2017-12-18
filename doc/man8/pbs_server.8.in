@@ -1,0 +1,228 @@
+.\"         OpenPBS (Portable Batch System) v2.3 Software License
+.\" 
+.\" Copyright (c) 1999-2000 Veridian Information Solutions, Inc.
+.\" All rights reserved.
+.\" 
+.\" ---------------------------------------------------------------------------
+.\" For a license to use or redistribute the OpenPBS software under conditions
+.\" other than those described below, or to purchase support for this software,
+.\" please contact Veridian Systems, PBS Products Department ("Licensor") at:
+.\" 
+.\"    www.OpenPBS.org  +1 650 967-4675                  sales@OpenPBS.org
+.\"                        877 902-4PBS (US toll-free)
+.\" ---------------------------------------------------------------------------
+.\" 
+.\" This license covers use of the OpenPBS v2.3 software (the "Software") at
+.\" your site or location, and, for certain users, redistribution of the
+.\" Software to other sites and locations.  Use and redistribution of
+.\" OpenPBS v2.3 in source and binary forms, with or without modification,
+.\" are permitted provided that all of the following conditions are met.
+.\" After December 31, 2001, only conditions 3-6 must be met:
+.\" 
+.\" 1. Commercial and/or non-commercial use of the Software is permitted
+.\"    provided a current software registration is on file at www.OpenPBS.org.
+.\"    If use of this software contributes to a publication, product, or service
+.\"    proper attribution must be given; see www.OpenPBS.org/credit.html
+.\" 
+.\" 2. Redistribution in any form is only permitted for non-commercial,
+.\"    non-profit purposes.  There can be no charge for the Software or any
+.\"    software incorporating the Software.  Further, there can be no
+.\"    expectation of revenue generated as a consequence of redistributing
+.\"    the Software.
+.\" 
+.\" 3. Any Redistribution of source code must retain the above copyright notice
+.\"    and the acknowledgment contained in paragraph 6, this list of conditions
+.\"    and the disclaimer contained in paragraph 7.
+.\" 
+.\" 4. Any Redistribution in binary form must reproduce the above copyright
+.\"    notice and the acknowledgment contained in paragraph 6, this list of
+.\"    conditions and the disclaimer contained in paragraph 7 in the
+.\"    documentation and/or other materials provided with the distribution.
+.\" 
+.\" 5. Redistributions in any form must be accompanied by information on how to
+.\"    obtain complete source code for the OpenPBS software and any
+.\"    modifications and/or additions to the OpenPBS software.  The source code
+.\"    must either be included in the distribution or be available for no more
+.\"    than the cost of distribution plus a nominal fee, and all modifications
+.\"    and additions to the Software must be freely redistributable by any party
+.\"    (including Licensor) without restriction.
+.\" 
+.\" 6. All advertising materials mentioning features or use of the Software must
+.\"    display the following acknowledgment:
+.\" 
+.\"     "This product includes software developed by NASA Ames Research Center,
+.\"     Lawrence Livermore National Laboratory, and Veridian Information
+.\"     Solutions, Inc.
+.\"     Visit www.OpenPBS.org for OpenPBS software support,
+.\"     products, and information."
+.\" 
+.\" 7. DISCLAIMER OF WARRANTY
+.\" 
+.\" THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. ANY EXPRESS
+.\" OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+.\" OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT
+.\" ARE EXPRESSLY DISCLAIMED.
+.\" 
+.\" IN NO EVENT SHALL VERIDIAN CORPORATION, ITS AFFILIATED COMPANIES, OR THE
+.\" U.S. GOVERNMENT OR ANY OF ITS AGENCIES BE LIABLE FOR ANY DIRECT OR INDIRECT,
+.\" INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+.\" LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+.\" OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+.\" LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+.\" NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+.\" EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+.\" 
+.\" This license will be governed by the laws of the Commonwealth of Virginia,
+.\" without reference to its choice of law rules.
+.if \n(Pb .ig Iq
+.TH pbs_server 8B "" Local PBS
+.so ../ers/ers.macros
+.Iq
+.SH NAME
+pbs_server \- start a pbs batch server
+.SH SYNOPSIS
+pbs_server\ [\-a active] [\-c] [\-d\ config_path\^]\ [\-e] [\-F] [\-f] [\-h] [\-l location\^]
+[\-p\ port\^] [\-t type\^] [\-v] [\^\-A\ acctfile\^] [\^\-D] [\-H\ hostname\^]
+[\^\-L\ logfile\^] [\-M\ mom_port\^] [\-n\ don't send hierarchy\^] [\-R\ momRPP_port] [\-S\ scheduler_port\^]
+[\-\-about] [\-\-ha] [\-\-help] [\-\-version]
+.SH DESCRIPTION
+The
+.B pbs_server
+command starts the operation of a batch server on the local host.
+Typically, this command will be in a local boot file such as
+.I /etc/rc.local .
+If the batch server is already in execution, 
+.B pbs_server
+will exit with an error.
+To insure that the 
+.B pbs_server
+command is not runnable by the general user community, the server
+will only execute if its real and effective uid is zero.
+.LP
+The server will record a diagnostic message in a log file for any
+error occurrence.  The log files are maintained in the server_logs
+directory below the home directory of the server.
+If the log file cannot be opened, the diagnostic message is written
+to the system console.
+.SH OPTIONS
+.IP "\-a active" 15
+Specifies if scheduling is active or not.  This sets the server attribute scheduling. If the option argument
+is "true" ("True", "t", "T", or "1"), the server is \fBactive\fP and the PBS job scheduler will be called.
+If the argument is "false" ("False", "f", "F", or "0), the server is \fBidle\fP, and the scheduler will not be called and no jobs will be run.
+If this option is not specified, the server will retain the prior value of the scheduling attribute.
+.IP "\-c" 15
+Wait 10 minutes before contacting moms. Any mom reporting in does not get pinged
+if starting
+.B pbs_server
+before moms.
+.IP "\-d config_path" 15
+Specifies the path of the directory which is home to the servers
+configuration files, PBS_HOME.  A host may have multiple servers.  Each server
+must have a different configuration directory.
+The default configuration directory is given by the symbol $PBS_SERVER_HOME
+which is typically 
+.Ty /usr/spool/PBS .
+.IP "\-e" 15
+Accept status update from any mom. Adds node to nodes file.
+.IP "\-F" 15
+Do not fork. Use when running under systemd.
+.IP "\-f" 15
+Force overwrite of server database.
+.IP "\-h" 15
+Print help information.
+.IP "\-l location"
+Specifies where to find the scheduler (for example, Moab) when it does not reside on the same host as Torque.
+Example: pbs_server -1 <other_host>:<other_port>
+.IP "\-p port" 15
+Specifies the port number on which the server will
+listen for batch requests.
+If multiple servers are running on a
+single host, each must have its own unique port number.
+This option is for use in testing with multiple batch systems on a single host.
+.IP "\-t type"
+If the job is rerunnable or restartable, and -t create is specified, the server will discard any existing configuration files, queues, and jobs, and initialize configuration files
+to the default values.  The server is idled.
+If -t is not specified, job states will remain the same.
+.IP "\-v" 15
+Shows version.
+.IP "\-A acctfile"
+Specifies an absolute path name of the file to use as the accounting file.
+If not specified, the file is named for the current date in the
+PBS_HOME/server_priv/accounting directory.
+.IP "\-D"
+Debug mode. Do not fork.
+.IP "\-H hostname"
+Causes the server to start under a different hostname as obtained from
+gethostname(2). Useful for servers with multiple network interfaces to support
+connections from clients over an interface that has a hostname assigned
+that differs from the one that is returned by gethostname(2).
+.IP "\-L logfile"
+Specifies an absolute path name of the file to use as the log file.
+If not specified, the file is one named for the current date in the
+PBS_HOME/server_logs directory, see the
+.At \-d
+option.
+.IP "\-M mom_port"
+Specifies the host name and/or port number on which the server should connect
+the job executor, MOM.  The option argument,
+.Ar mom_conn ,
+is one of the forms: host_name, [:]port_number, or host_name:port_number.
+If host_name not specified, the local host is assumed.   If port_number is not
+specified, the default port is assumed.  See the \-M option for pbs_mom(8).
+.IP "\-n don't send heirarchy"
+Directs pbs_server to not send the hierarchy to all the MOMs on startup. Instead, the hierarchy is only sent if a MOM requests it. This flag works only in conjunction with the local MOM hierarchy feature.
+.IP "\-R mom_RPPport"
+Specifies the port number on which the the server should query the up/down
+status of Mom.    See the \-R option for pbs_mom(8).
+.IP "\-S scheduler_port" 15
+Specifies the port number to which the server should connect when
+contacting the Scheduler.  By default pbs_server looks for the scheduler
+on the loopback address at port 15004. The -S option changes the default to the value 
+given in the option argument. The option argument,
+.Ar scheduler_conn ,
+is of the same syntax as under the \-M option.
+.IP "\-\-about" 15
+Shows information about
+.B pbs_server.
+.IP "\-\-ha" 15
+Enables high availability mode.
+.IP "\-\-help" 15
+Prints help information.
+.IP "\-\-version" 15
+Shows version and commit information.
+.LP
+.SH FILES
+.IP $PBS_SERVER_HOME/server_priv 15
+default directory for configuration files, typically
+/usr/spool/pbs/server_priv
+.IP $PBS_SERVER_HOME/server_logs 15
+directory for log files recorded by the server.
+.SH Signal Handling
+On receipt of the following signals, the server performs the defined action:
+.IP SIGHUP
+The current server log and accounting log are closed and reopened.  This 
+allows for the prior log to be renamed and a new log started from the time
+of the signal.
+.IP SIGINT
+Causes an orderly shutdown of pbs_server.
+.IP "SIGUSR1, SIGUSR2"
+Causes server to increase and decrease logging levels, respectively.
+.IP SIGTERM
+Causes an orderly shutdown of pbs_server.
+.IP SIGSHUTDN
+On systems (Unicos) where SIGSHUTDN is defined, it also causes an orderly
+shutdown of the server.
+.IP "SIGPIPE"
+This signal is ignored.
+.LP
+All other signals have their default behavior installed.
+.SH EXIT STATUS
+If the server command fails to begin batch operation, the
+server exits with a value greater than zero.
+.SH SEE ALSO
+qsub (1B), pbs_connect(3B),
+pbs_mom(8B), pbs_sched_basl(8B), pbs_sched_tcl(8B),
+pbsnodes(8B), qdisable(8B), qenable(8B), qmgr(1B), qrun(8B), qstart(8B),
+qstop(8B), qterm(8B), and the PBS External Reference Specification.
+.\" turn off any extra indent left by the Sh macro
+.RE

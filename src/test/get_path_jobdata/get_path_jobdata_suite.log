@@ -1,0 +1,5 @@
+Running suite get_path_jobdata test suite methods
+test_uut.c:37:P:test_get_path_jobdata:test_get_path_jobdata:0: Passed
+test_uut.c:42:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

@@ -1,0 +1,7 @@
+Running suite svr_task_suite methods
+test_uut.c:147:P:test_one:test_one:0: Passed
+test_uut.c:62:P:can_dispatch_task_test:can_dispatch_task_test:0: Passed
+test_uut.c:116:P:can_dispatch_task_test:manage_timed_task_test:0: Passed
+test_uut.c:43:P:can_dispatch_task_test:dispatch_timed_task_test:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

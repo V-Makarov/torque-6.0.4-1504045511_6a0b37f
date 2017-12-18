@@ -1,0 +1,9 @@
+Running suite u_hash_map_structs methods
+test_uut.c:61:P:u_hash_map_structs:test_hash_add_item_new_count_clear:0: Passed
+test_uut.c:83:P:u_hash_map_structs:test_hash_add_item_null:0: Passed
+test_uut.c:124:P:u_hash_map_structs:test_hash_add_item_add_find_add_find_del_cnt_del_find:0: Passed
+test_uut.c:146:P:u_hash_map_structs:test_hash_print:0: Passed
+test_uut.c:204:P:u_hash_map_structs:test_hash_add_hash:0: Passed
+test_uut.c:42:P:u_hash_map_structs:test_hash_priority_add_or_exit:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

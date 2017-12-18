@@ -1,0 +1,5 @@
+Running suite add_verify_resources_suite methods
+test_uut.c:31:P:test_simple:test_simple:0: Passed
+test_uut.c:45:P:test_advanced:test_advanced:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

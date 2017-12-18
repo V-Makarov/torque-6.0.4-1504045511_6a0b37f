@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<array>
+  <struct_version>0</struct_version>
+  <array_size>0</array_size>
+  <number_jobs>10</number_jobs>
+  <slot_limit>0</slot_limit>
+  <jobs_running>0</jobs_running>
+  <jobs_done>0</jobs_done>
+  <number_cloned>0</number_cloned>
+  <number_started>0</number_started>
+  <number_failed>0</number_failed>
+  <number_successful>0</number_successful>
+  <owner></owner>
+  <parent_id></parent_id>
+  <fileprefix></fileprefix>
+  <submit_host></submit_host>
+  <number_purged>0</number_purged>
+  <number_tokens>0</number_tokens>
+</array>

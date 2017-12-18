@@ -1,0 +1,5 @@
+Running suite cnt2server_suite methods
+test_uut.c:19:P:test_cnt2server_conf:test_cnt2server_conf:0: Passed
+test_uut.c:34:P:test_cnt2server:test_cnt2server:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

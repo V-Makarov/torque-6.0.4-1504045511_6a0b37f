@@ -1,0 +1,8 @@
+Running suite alps helper suite methods
+test_uut.c:33:P:initialize_test:initialize_test:0: Passed
+test_uut.c:60:P:add_test:add_test:0: Passed
+test_uut.c:234:P:retrieval_test:retrieval_test:0: Passed
+test_uut.c:318:P:prop_test:prop_test:0: Passed
+test_uut.c:250:P:prop_test:check_node_test:0: Passed
+Results for all suites run:
+100%: Checks: 5, Failures: 0, Errors: 0

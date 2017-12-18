@@ -1,0 +1,7 @@
+Running suite parse_config test suite methods
+test_uut.c:32:P:test_add_job_status_information:test_add_job_status_information:0: Passed
+test_uut.c:45:P:test_setcudavisibledevices:test_setcudavisibledevices:0: Passed
+test_uut.c:73:P:test_setjobstarterprivileged:test_setjobstarterprivileged:0: Passed
+test_uut.c:93:P:test_reqgres:test_reqgres:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

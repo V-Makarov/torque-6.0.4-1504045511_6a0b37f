@@ -1,0 +1,10 @@
+Running suite attr_fn_tv_suite methods
+test_uut.c:26:P:decode_tv:decode_tv:0: Passed
+test_uut.c:48:P:decode_tv_no_dot:decode_tv_no_dot:0: Passed
+test_uut.c:70:P:decode_tv_two_dots:decode_tv_two_dots:0: Passed
+test_uut.c:92:P:decode_tv_not_digit:decode_tv_not_digit:0: Passed
+test_uut.c:113:P:decode_tv_null_val:decode_tv_null_val:0: Passed
+test_uut.c:135:P:decode_tv_val_empty:decode_tv_val_empty:0: Passed
+test_uut.c:140:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

@@ -1,0 +1,3 @@
+discui_.lo: ../../lib/Libdis/discui_.c ../../../src/include/pbs_config.h
+
+../../../src/include/pbs_config.h:

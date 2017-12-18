@@ -1,0 +1,17 @@
+Running suite qstat_suite methods
+test_uut.c:51:P:time_to_string_test:time_to_string_test:0: Passed
+test_uut.c:70:P:test_istrue:test_istrue:0: Passed
+test_uut.c:90:P:test_isjobid:test_isjobid:0: Passed
+test_uut.c:117:P:test_timestring_to_int:test_timestring_to_int:0: Passed
+test_uut.c:381:P:test_process_commandline_opts:test_process_commandline_opts:0: Passed
+test_uut.c:394:P:test_get_ct:test_get_ct:0: Passed
+test_uut.c:440:P:test_run_job_mode:test_run_job_mode:0: Passed
+test_uut.c:482:P:test_run_queue_mode:test_run_queue_mode:0: Passed
+test_uut.c:523:P:test_run_server_mode:test_run_server_mode:0: Passed
+test_uut.c:564:P:test_err_msg:test_err_msg:0: Passed
+test_uut.c:598:P:test_read_int_token:test_read_int_token:0: Passed
+test_uut.c:627:P:test_read_int_prop:test_read_int_prop:0: Passed
+test_uut.c:644:P:test_read_node_spec:test_read_node_spec:0: Passed
+test_uut.c:655:P:test_get_tasks_from_nodes_resc:test_get_tasks_from_nodes_resc:0: Passed
+Results for all suites run:
+100%: Checks: 14, Failures: 0, Errors: 0

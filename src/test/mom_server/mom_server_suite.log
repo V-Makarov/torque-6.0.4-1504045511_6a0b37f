@@ -1,0 +1,10 @@
+Running suite mom_server_suite methods
+test_uut.c:71:P:test_sort_paths:test_sort_paths:0: Passed
+test_uut.c:122:P:test_check_state:test_check_state:0: Passed
+test_uut.c:161:P:test_mom_server_update_stat_clear_force:test_mom_server_update_stat_clear_force:0: Passed
+test_uut.c:187:P:test_send_update_force_flag:test_send_update_force_flag:0: Passed
+test_uut.c:242:P:test_is_for_this_host:test_is_for_this_host:0: Passed
+test_uut.c:262:P:test_get_device_indices:test_get_device_indices:0: Passed
+test_uut.c:219:P:test_get_device_indices:test_mom_server_all_update_stat_clear_force:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

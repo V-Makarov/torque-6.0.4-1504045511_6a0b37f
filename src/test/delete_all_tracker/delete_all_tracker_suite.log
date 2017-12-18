@@ -1,0 +1,4 @@
+Running suite delete_all_tracker test suite methods
+test_uut.c:23:P:test_basic_functionality:test_basic_functionality:0: Passed
+Results for all suites run:
+100%: Checks: 1, Failures: 0, Errors: 0

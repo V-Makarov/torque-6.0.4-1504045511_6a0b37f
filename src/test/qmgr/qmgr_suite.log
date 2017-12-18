@@ -1,0 +1,10 @@
+Running suite qmgr_suite methods
+test_uut.c:64:P:test_res_max_nodes:test_res_max_nodes:0: Passed
+test_uut.c:87:P:test_res_max_nodect:test_res_max_nodect:0: Passed
+test_uut.c:110:P:test_res_max_procct:test_res_max_procct:0: Passed
+test_uut.c:133:P:test_res_min_nodes:test_res_min_nodes:0: Passed
+test_uut.c:156:P:test_res_min_nodect:test_res_min_nodect:0: Passed
+test_uut.c:179:P:test_res_min_procct:test_res_min_procct:0: Passed
+test_uut.c:40:P:test_res_min_procct:test_check_list:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

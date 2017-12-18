@@ -1,0 +1,7 @@
+Running suite pbsD_resc_suite methods
+test_uut.c:15:P:test_PBS_resc:test_PBS_resc:0: Passed
+test_uut.c:39:P:test_PBS_resc:test_pbs_rescrelease:0: Passed
+test_uut.c:23:P:test_pbs_rescquery:test_pbs_rescquery:0: Passed
+test_uut.c:31:P:test_pbs_rescquery:test_pbs_rescreserve:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

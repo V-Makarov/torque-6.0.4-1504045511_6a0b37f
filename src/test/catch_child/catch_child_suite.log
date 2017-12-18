@@ -1,0 +1,12 @@
+Running suite get_node_tests
+test_uut.c:111:P:Core:test_catch_child_1:0: Passed
+test_uut.c:102:P:Core:obit_reply_test:0: Passed
+test_uut.c:133:P:Core:test_eligible_for_exiting_check:0: Passed
+test_uut.c:148:P:Core:test_jobs_main_process:0: Passed
+test_uut.c:172:P:Core:test_non_mother_superior_cleanup:0: Passed
+test_uut.c:176:P:Core:test_mother_superior_cleanup:0: Passed
+test_uut.c:64:P:Core:test_get_node_1:0: Passed
+test_uut.c:76:P:Core:test_get_node_2:0: Passed
+test_uut.c:89:P:Core:test_get_node_3:0: Passed
+Results for all suites run:
+100%: Checks: 9, Failures: 0, Errors: 0

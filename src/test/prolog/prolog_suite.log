@@ -1,0 +1,6 @@
+Running suite prolog_suite methods
+test_uut.c:43:P:test_check_pelog_permissions:test_check_pelog_permissions:0: Passed
+test_uut.c:82:P:test_setup_pelog_arguments:test_setup_pelog_arguments:0: Passed
+test_uut.c:135:P:test_setup_pelog_arguments:test_setup_pelog_environment:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

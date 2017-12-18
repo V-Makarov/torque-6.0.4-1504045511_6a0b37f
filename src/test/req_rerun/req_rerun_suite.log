@@ -1,0 +1,5 @@
+Running suite req_rerun_suite methods
+test_uut.c:30:P:test_requeue_job_without_contacting_mom:test_requeue_job_without_contacting_mom:0: Passed
+test_uut.c:44:P:test_handle_requeue_all:test_handle_requeue_all:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

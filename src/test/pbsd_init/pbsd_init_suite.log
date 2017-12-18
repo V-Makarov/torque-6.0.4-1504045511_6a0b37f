@@ -1,0 +1,6 @@
+Running suite pbsd_init_suite methods
+test_uut.c:109:P:test_mk_subdirs:test_mk_subdirs:0: Passed
+test_uut.c:130:P:test_pbsd_init_reque:test_pbsd_init_reque:0: Passed
+test_uut.c:80:P:test_pbsd_init_reque:test_check_jobs_queue:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

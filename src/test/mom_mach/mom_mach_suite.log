@@ -1,0 +1,10 @@
+Running suite mom_mach_suite methods
+test_uut.c:138:P:test_get_job_sid_from_pid:test_get_job_sid_from_pid:0: Passed
+test_uut.c:194:P:test_injob:test_injob:0: Passed
+test_uut.c:315:P:test_overmem_proc:test_overmem_proc:0: Passed
+test_uut.c:377:P:test_overcpu_proc:test_overcpu_proc:0: Passed
+test_uut.c:436:P:test_resi_sum:test_resi_sum:0: Passed
+test_uut.c:495:P:test_mem_sum:test_mem_sum:0: Passed
+test_uut.c:46:P:test_mem_sum:memory_tests:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

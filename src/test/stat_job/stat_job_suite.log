@@ -1,0 +1,5 @@
+Running suite stat_job_suite methods
+test_uut.c:32:P:test_include_in_status:test_include_in_status:0: Passed
+test_uut.c:40:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

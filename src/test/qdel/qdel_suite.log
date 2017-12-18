@@ -1,0 +1,8 @@
+Running suite qdel_suite methods
+test_uut.c:13:P:test_clientretry:test_clientretry_disabled:0: Passed
+test_uut.c:25:P:test_clientretry:test_clientretry_cmdline:0: Passed
+test_uut.c:40:P:test_clientretry:test_clientretry_conf_file:0: Passed
+test_uut.c:58:P:test_clientretry:test_clientretry_env:0: Passed
+test_uut.c:73:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 5, Failures: 0, Errors: 0

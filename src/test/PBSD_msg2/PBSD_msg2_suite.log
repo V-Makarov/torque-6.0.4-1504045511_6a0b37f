@@ -1,0 +1,5 @@
+Running suite PBSD_msg2_suite methods
+test_uut.c:13:P:test_PBSD_msg_put:test_PBSD_msg_put:0: Passed
+test_uut.c:18:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

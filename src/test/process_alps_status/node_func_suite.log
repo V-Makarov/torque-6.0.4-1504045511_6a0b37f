@@ -1,0 +1,14 @@
+Running suite alps helper suite methods
+test_uut.c:68:P:set_ncpus_test:set_ncpus_test:0: Passed
+test_uut.c:118:P:set_state_test:set_state_test:0: Passed
+test_uut.c:143:P:finish_gpu_status_test:finish_gpu_status_test:0: Passed
+test_uut.c:228:P:create_alps_subnode_test:create_alps_subnode_test:0: Passed
+test_uut.c:160:P:find_alpsnode_test:find_alpsnode_test:0: Passed
+test_uut.c:186:P:determine_node_from_str_test:determine_node_from_str_test:0: Passed
+test_uut.c:203:P:check_orphaned_test:check_orphaned_test:0: Passed
+test_uut.c:93:P:set_ngpus_test:set_ngpus_test:0: Passed
+test_uut.c:244:P:whole_test:whole_test:0: Passed
+test_uut.c:259:P:process_reservation_id_test:process_reservation_id_test:0: Passed
+test_uut.c:45:P:process_reservation_id_test:record_reservation_test:0: Passed
+Results for all suites run:
+100%: Checks: 11, Failures: 0, Errors: 0

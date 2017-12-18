@@ -1,0 +1,9 @@
+Running suite alps helper suite methods
+test_uut.c:244:P:parse_alps_output_test:parse_alps_output_test:0: Passed
+test_uut.c:277:P:parse_alps13_output_test:parse_alps13_output_test:0: Passed
+test_uut.c:66:P:parse_alps13_output_test:get_knl_information_test:0: Passed
+test_uut.c:298:P:full_generate_test:full_generate_test:0: Passed
+test_uut.c:314:P:full_generate_test:label_generate_test:0: Passed
+test_uut.c:346:P:full_generate_test:check_status_attribute_order:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

@@ -1,0 +1,5 @@
+Running suite attr_fn_time_suite methods
+test_uut.c:25:P:test_get_time_string:test_get_time_string:0: Passed
+test_uut.c:43:P:test_time_str_to_seconds:test_time_str_to_seconds:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

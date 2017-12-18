@@ -1,0 +1,8 @@
+Running suite node_internals test suite methods
+test_node_internals.c:31:P:test_constructor:test_constructor:0: Passed
+test_node_internals.c:87:P:test_constructor:test_reserve:0: Passed
+test_node_internals.c:103:P:test_constructor:test_remove:0: Passed
+test_node_internals.c:123:P:test_constructor:test_getting_indices:0: Passed
+test_node_internals.c:65:P:test_constructor:test_recover_reservation:0: Passed
+Results for all suites run:
+100%: Checks: 5, Failures: 0, Errors: 0

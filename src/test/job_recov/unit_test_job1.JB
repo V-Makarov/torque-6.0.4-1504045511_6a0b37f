@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<job>
+  <version>131842</version>
+  <state>0</state>
+  <substate>0</substate>
+  <server_flags>1</server_flags>
+  <start_time>0</start_time>
+  <jobid>unit_test_job1</jobid>
+  <fileprefix>unit_test_job1</fileprefix>
+  <queue>batch</queue>
+  <destination_queue></destination_queue>
+  <record_type>0</record_type>
+  <from_host>0</from_host>
+  <from_socket>9</from_socket>
+  <script_size>0</script_size>
+  <attributes>
+    <Job_Name flags="1">STDIN</Job_Name>
+    <Job_Owner flags="1">echan@lei</Job_Owner>
+    <server flags="1">lei.ac</server>
+    <Checkpoint flags="1">u</Checkpoint>
+    <Error_Path flags="1">/someOutput/STDIN.e945</Error_Path>
+    <Join_Path flags="1">n</Join_Path>
+    <Keep_Files flags="1">n</Keep_Files>
+    <Mail_Points flags="1">a</Mail_Points>
+    <Output_Path flags="1">/someOutput/STDIN.o945</Output_Path>
+    <submit_host flags="1">lei.ac</submit_host>
+  </attributes>
+</job>

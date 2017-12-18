@@ -1,0 +1,11 @@
+Running suite job_recov_suite methods
+test_uut.c:94:P:test_job_recover:ghost_array_test:0: Passed
+test_uut.c:131:P:test_job_recover:ghost_array_test2:0: Passed
+test_uut.c:446:P:test_job_recover:test_job_recover:0: Passed
+test_uut.c:425:P:test_job_recover:fill_resource_list_test:0: Passed
+test_uut.c:204:P:test_job_recover:test_add_encoded_attributes:0: Passed
+test_uut.c:184:P:test_job_recover:test_translate_dependency_to_string:0: Passed
+test_uut.c:158:P:test_moar:test_set_array_jobs_ids:0: Passed
+test_uut.c:108:P:test_moar:test_decode_attribute:0: Passed
+Results for all suites run:
+100%: Checks: 8, Failures: 0, Errors: 0

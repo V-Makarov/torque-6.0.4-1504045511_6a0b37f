@@ -1,0 +1,13 @@
+Running suite job_container test suite methods
+test_uut.c:84:P:swap_jobs_test:swap_jobs_test:0: Passed
+test_uut.c:104:P:insert_job_test:insert_job_test:0: Passed
+test_uut.c:58:P:get_correct_jobname_test:get_correct_jobname_test:0: Passed
+test_uut.c:129:P:insert_job_after_test:insert_job_after_test:0: Passed
+test_uut.c:147:P:insert_job_first_test:insert_job_first_test:0: Passed
+test_uut.c:166:P:has_job_test:has_job_test:0: Passed
+test_uut.c:184:P:remove_job_test:remove_job_test:0: Passed
+test_uut.c:265:P:next_job_test:next_job_test:0: Passed
+test_uut.c:297:P:find_job_by_array_with_removed_record:find_job_by_array_with_removed_record_test:0: Passed
+test_uut.c:47:P:find_job_by_array_with_removed_record:iterator_test:0: Passed
+Results for all suites run:
+100%: Checks: 10, Failures: 0, Errors: 0

@@ -1,0 +1,6 @@
+Running suite alps helper suite methods
+test_uut.c:33:P:destroy_alps_reservation_test:destroy_alps_reservation_test:0: Passed
+test_uut.c:45:P:test_parse_release_output:test_parse_release_output:0: Passed
+test_uut.c:51:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

@@ -1,0 +1,10 @@
+Running suite req_quejob_suite methods
+test_uut.c:133:P:test_one:test_one:0: Passed
+test_uut.c:189:P:test_get_job_id:test_get_job_id:0: Passed
+test_uut.c:99:P:test_get_job_id:test_job_exists:0: Passed
+test_uut.c:91:P:test_get_job_id:test_get_queue_for_job:0: Passed
+test_uut.c:67:P:test_get_job_id:test_determine_job_file_name:0: Passed
+test_uut.c:52:P:test_get_job_id:test_create_and_initialize_job_structure:0: Passed
+test_uut.c:203:P:test_req_commit:test_req_commit:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

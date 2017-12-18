@@ -1,0 +1,15 @@
+Running suite trq_auth_suite methods
+test_uut.c:89:P:get_active_pbs_server_test:get_active_pbs_server_test:0: Passed
+test_uut.c:132:P:test_trq_simple_connect:test_trq_simple_connect:0: Passed
+test_uut.c:156:P:test_trq_simple_disconnect:test_trq_simple_disconnect:0: Passed
+test_uut.c:185:P:test_validate_server:test_validate_server:0: Passed
+test_uut.c:197:P:test_set_active_pbs_server:test_set_active_pbs_server:0: Passed
+test_uut.c:241:P:test_validate_active_pbs_server:test_validate_active_pbs_server:0: Passed
+test_uut.c:371:P:test_process_svr_conn:test_process_svr_conn:0: Passed
+test_uut.c:382:P:test_send_svr_disconnect:test_send_svr_disconnect:0: Passed
+test_uut.c:419:P:test_response_building:build_request_svr_test:0: Passed
+test_uut.c:430:P:test_response_building:build_active_server_response_test:0: Passed
+test_uut.c:452:P:test_set_trqauthd_addr:test_set_trqauthd_addr:0: Passed
+test_uut.c:491:P:test_validate_user:test_validate_user:0: Passed
+Results for all suites run:
+100%: Checks: 12, Failures: 0, Errors: 0

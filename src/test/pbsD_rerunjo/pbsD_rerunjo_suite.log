@@ -1,0 +1,5 @@
+Running suite pbsD_rerunjo_suite methods
+test_uut.c:16:P:test_pbs_rerunjob_err:test_pbs_rerunjob_err:0: Passed
+test_uut.c:21:P:test_two:test_two:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

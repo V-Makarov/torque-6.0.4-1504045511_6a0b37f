@@ -1,0 +1,38 @@
+pbs_messages.lo: ../../lib/Liblog/pbs_messages.c \
+ ../../../src/include/pbs_config.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h \
+ /usr/include/xlocale.h ../../../src/include/portability.h \
+ ../../../src/include/pbs_error.h ../../../src/include/pbs_error_db.h \
+ ../../../src/include/pbs_batchreqtype_db.h \
+ ../../../src/include/pbs_error_db.h
+
+../../../src/include/pbs_config.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+../../../src/include/portability.h:
+
+../../../src/include/pbs_error.h:
+
+../../../src/include/pbs_error_db.h:
+
+../../../src/include/pbs_batchreqtype_db.h:
+
+../../../src/include/pbs_error_db.h:

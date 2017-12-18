@@ -1,0 +1,4 @@
+u_constants.lo: ../../resmom/../lib/Libutils/u_constants.c \
+ ../../../src/include/alps_constants.h
+
+../../../src/include/alps_constants.h:

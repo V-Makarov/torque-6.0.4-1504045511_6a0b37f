@@ -1,0 +1,10 @@
+Running suite pbsd_main_suite methods
+test_uut.c:47:P:test_parse_command_line_case1:test_parse_command_line_case1:0: Passed
+test_uut.c:58:P:test_parse_command_line_case2:test_parse_command_line_case2:0: Passed
+test_uut.c:69:P:test_parse_command_line_case3:test_parse_command_line_case3:0: Passed
+test_uut.c:74:P:test_parse_command_line_case4:test_parse_command_line_case4:0: Passed
+test_uut.c:93:P:test_parse_command_line_case5:test_parse_command_line_case5:0: Passed
+test_uut.c:107:P:test_parse_command_line_case6:test_parse_command_line_case6:0: Passed
+test_uut.c:121:P:test_parse_command_line_case7:test_parse_command_line_case7:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

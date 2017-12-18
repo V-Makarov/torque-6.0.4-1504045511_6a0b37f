@@ -1,0 +1,6 @@
+Running suite req_runjob_suite methods
+test_uut.c:30:P:requeue_job_test:requeue_job_test:0: Passed
+test_uut.c:68:P:test_two:test_two:0: Passed
+test_uut.c:48:P:test_two:test_get_mail_text:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

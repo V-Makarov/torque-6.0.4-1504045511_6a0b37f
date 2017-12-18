@@ -1,0 +1,9 @@
+Running suite numa_node test suite methods
+test_numa_node.c:114:P:test_numa_node:test_constructor:0: Passed
+test_numa_node.c:73:P:test_numa_node:test_parse_cpu_string:0: Passed
+test_numa_node.c:85:P:test_numa_node:test_completely_fits:0: Passed
+test_numa_node.c:173:P:test_numa_node:test_reserve:0: Passed
+test_numa_node.c:23:P:test_numa_node:test_in_this_numa_node:0: Passed
+test_numa_node.c:47:P:test_numa_node:test_recover_reservation:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

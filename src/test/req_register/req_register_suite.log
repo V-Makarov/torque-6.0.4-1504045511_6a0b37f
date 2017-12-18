@@ -1,0 +1,31 @@
+Running suite req_register_suite methods
+test_uut.c:190:P:check_dependency_job_test:check_dependency_job_test:0: Passed
+test_uut.c:220:P:check_dependency_job_test:find_depend_test:0: Passed
+test_uut.c:248:P:check_dependency_job_test:clear_depend_test:0: Passed
+test_uut.c:268:P:check_dependency_job_test:make_depend_test:0: Passed
+test_uut.c:327:P:check_dependency_job_test:register_sync_test:0: Passed
+test_uut.c:291:P:check_dependency_job_test:find_dependjob_test:0: Passed
+test_uut.c:311:P:check_dependency_job_test:make_dependjob_test:0: Passed
+test_uut.c:349:P:register_dep_test:register_dep_test:0: Passed
+test_uut.c:374:P:register_dep_test:unregister_dep_test:0: Passed
+test_uut.c:382:P:register_dep_test:comp_depend_test:0: Passed
+test_uut.c:401:P:register_dep_test:free_depend_test:0: Passed
+test_uut.c:432:P:register_dep_test:build_depend_test:0: Passed
+test_uut.c:449:P:register_dep_test:dup_depend_test:0: Passed
+test_uut.c:567:P:set_depend_test:set_depend_test:0: Passed
+test_uut.c:545:P:set_depend_test:encode_depend_test:0: Passed
+test_uut.c:523:P:set_depend_test:decode_depend_test:0: Passed
+test_uut.c:594:P:depend_clrrdy_test:depend_clrrdy_test:0: Passed
+test_uut.c:638:P:depend_clrrdy_test:register_before_dep_test:0: Passed
+test_uut.c:664:P:depend_clrrdy_test:register_dependency_test:0: Passed
+test_uut.c:690:P:depend_clrrdy_test:release_before_dependency_test:0: Passed
+test_uut.c:713:P:depend_clrrdy_test:release_syncwith_dependency_test:0: Passed
+test_uut.c:765:P:depend_clrrdy_test:set_depend_hold_test:0: Passed
+test_uut.c:786:P:depend_clrrdy_test:delete_dependency_job_test:0: Passed
+test_uut.c:842:P:depend_clrrdy_test:remove_after_any_test:0: Passed
+test_uut.c:509:P:depend_clrrdy_test:req_register_test:0: Passed
+test_uut.c:162:P:depend_clrrdy_test:set_array_depend_holds_test:0: Passed
+test_uut.c:109:P:depend_clrrdy_test:remove_array_dependency_from_job_test:0: Passed
+test_uut.c:92:P:depend_clrrdy_test:test_job_ids_match:0: Passed
+Results for all suites run:
+100%: Checks: 28, Failures: 0, Errors: 0

@@ -1,0 +1,9 @@
+Running suite u_groups_suite methods
+test_uut.c:16:P:null_check:null_check:0: Passed
+test_uut.c:28:P:find_by_name:find_by_name:0: Passed
+test_uut.c:41:P:find_by_value:find_by_value:0: Passed
+test_uut.c:53:P:unknown_name:unknown_name:0: Passed
+test_uut.c:83:P:test_free_grname:test_free_grname:0: Passed
+test_uut.c:97:P:test_getgrgid_ext:test_getgrgid_ext:0: Passed
+Results for all suites run:
+100%: Checks: 6, Failures: 0, Errors: 0

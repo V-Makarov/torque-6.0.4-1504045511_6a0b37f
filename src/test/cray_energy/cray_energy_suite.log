@@ -1,0 +1,5 @@
+Running suite cray_energy_suite methods
+test_uut.c:20:P:test_get_energy_from_file:test_get_energy_from_file:0: Passed
+test_uut.c:29:P:test_get_path_to_rur_file:test_get_path_to_rur_file:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

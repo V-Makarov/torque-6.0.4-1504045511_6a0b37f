@@ -1,0 +1,10 @@
+Running suite u_mutex_mgr methods
+test_uut.c:23:P:initialize_mutex:initialize_mutex:0: Passed
+test_uut.c:38:P:invalid_mutex:invalid_mutex:0: Passed
+test_uut.c:54:P:unlock_mutex:unlock_mutex:0: Passed
+test_uut.c:73:P:lock_mutex:lock_mutex:0: Passed
+test_uut.c:89:P:mutex_already_locked:mutex_already_locked:0: Passed
+test_uut.c:108:P:mutex_already_unlocked:mutex_already_unlocked:0: Passed
+test_uut.c:121:P:set_lock_exit:set_lock_exit:0: Passed
+Results for all suites run:
+100%: Checks: 7, Failures: 0, Errors: 0

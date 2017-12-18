@@ -1,0 +1,7 @@
+Running suite exiting_jobs test suite methods
+test_uut.c:19:P:record_job_as_exiting_test:record_job_as_exiting_test:0: Passed
+test_uut.c:39:P:remove_job_from_exiting_list_test:remove_job_from_exiting_list_test:0: Passed
+test_uut.c:48:P:retry_job_exit_test:retry_job_exit_test:0: Passed
+test_uut.c:57:P:check_exiting_jobs_test:check_exiting_jobs_test:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0

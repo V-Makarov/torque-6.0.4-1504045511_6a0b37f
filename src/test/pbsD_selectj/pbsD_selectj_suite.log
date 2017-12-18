@@ -1,0 +1,6 @@
+Running suite pbsD_selectj_suite methods
+test_uut.c:18:P:test_PBSD_select_get:test_PBSD_select_get:0: Passed
+test_uut.c:34:P:test_PBSD_select_get:test_PBSD_select_put:0: Passed
+test_uut.c:26:P:test_PBSD_selectattr_put:test_PBSD_selectattr_put:0: Passed
+Results for all suites run:
+100%: Checks: 3, Failures: 0, Errors: 0

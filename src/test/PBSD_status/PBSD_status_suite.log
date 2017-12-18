@@ -1,0 +1,5 @@
+Running suite PBSD_status_suite methods
+test_uut.c:10:P:test_one:test_one:0: Passed
+test_uut.c:20:P:test_PBSD_status_get:test_PBSD_status_get:0: Passed
+Results for all suites run:
+100%: Checks: 2, Failures: 0, Errors: 0

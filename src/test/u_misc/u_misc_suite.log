@@ -1,0 +1,7 @@
+Running suite u_misc test suite methods
+test_uut.c:115:P:test_translate_range_string_to_vector:test_translate_range_string_to_vector:0: Passed
+test_uut.c:69:P:test_translate_range_string_to_vector:test_translate_vector_to_range_string:0: Passed
+test_uut.c:24:P:test_capture:test_capture_until_close_character:0: Passed
+test_uut.c:139:P:test_task_hosts_match:test_task_hosts_match:0: Passed
+Results for all suites run:
+100%: Checks: 4, Failures: 0, Errors: 0
